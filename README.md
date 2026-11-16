@@ -43,7 +43,7 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 
 - Gameplay development: Pathie
 - UI development: Pamplemom
-- Online development: Pamplemom & Pathie
+- Online development: Pamplemom & Pathie & mistipy
 
 - Game art: Frost
 - UI art: Pamplemom
@@ -56,7 +56,6 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 - Tril
 - Sherryade
 - Pixabay
-- mistipy
 
 
 # Uninstall :(
