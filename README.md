@@ -41,15 +41,21 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 
 ### Development
 
-- Online development: Pamplemom & Pathie
-- Game development: Pathie
+- Gameplay development: Pathie
 - UI development: Pamplemom
+- Online development: Pamplemom & Pathie
 
-- Music and SFX: Pathie
-- Game Art: Frost
-- UI Art: Pamplemom
+- Game art: Frost
+- UI art: Pamplemom
+- Music: Pathie
 
 ### Special thanks:
+
+- allb2000
+- Darius
+- Tril
+- Sherryade
+- Pixabay
 
 
 # Uninstall :(
