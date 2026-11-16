@@ -56,6 +56,7 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 - Tril
 - Sherryade
 - Pixabay
+- mistipy
 
 
 # Uninstall :(
