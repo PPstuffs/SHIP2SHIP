@@ -31,7 +31,7 @@ wget https://github.com/PPstuffs/SHIP2SHIP/archive/refs/heads/main.zip -O ship2s
 unzip ship2ship.zip # Extract the archive
 sudo mkdir -p /opt/SHIP2SHIP # Create the game's installation directory
 sudo cp -r SHIP2SHIP-main/linux/. /opt/SHIP2SHIP/ # Copy the game files into the installation directory
-sudo cp -r SHIP2SHIP-main/assets /opt/SHIP2SHIP/ # Copy the game assets into the installation directory
+sudo unzip SHIP2SHIP-main/assets.zip -d /opt/SHIP2SHIP/ # Extract the game assets
 sudo chmod +x /opt/SHIP2SHIP/SHIP2SHIP # Make the game executable
 sudo cp /opt/SHIP2SHIP/SHIP2SHIP.desktop /usr/share/applications/ # Add the game to your application menu
 rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
