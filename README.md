@@ -50,6 +50,21 @@ UI Art: Pamplemom
 Special thanks:
 
 
+## Uninstall :(
+
+## Windows
+
+Search our game inside the start menu, you should have an option to uninstall. Press it and follow the steps.
+
+## Linux
+
+Simply execute this set of functions
+```bash
+sudo rm -rf /opt/SHIP2SHIP # Remove the game files
+sudo rm -f /usr/share/applications/SHIP2SHIP.desktop # Remove destop icon
+sudo update-desktop-database /usr/share/applications 2>/dev/null || true # Refresh app database
+```
+
 ---
 
 Thanks to all!
