@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SHIP2SHIP
+Comment=Play SHIP2SHIP
+Exec=/opt/SHIP2SHIP/SHIP2SHIP
+Path=/opt/SHIP2SHIP
+Icon=/opt/SHIP2SHIP/assets/icon.png
+Terminal=false
+Categories=Game;
