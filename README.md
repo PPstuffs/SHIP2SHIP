@@ -27,7 +27,7 @@ Download and execute the installer, then follow its steps:
 Execute this set of commands:
 ```bash
 sudo apt update && sudo apt install unzip wget libcsfml-dev # install dependencies
-wget <github-link> -O ship2ship.zip # Download the game
+wget https://github.com/PPstuffs/SHIP2SHIP/archive/refs/heads/main.zip -O repo.zip -O ship2ship.zip # Download the game
 unzip ship2ship.zip # unzip it
 sudo mkdir -p /opt/SHIP2SHIP # Create the folder for the game
 sudo cp -r SHIP2SHIP-main/linux/. /opt/SHIP2SHIP/ # Copy the game inside the folder
@@ -39,18 +39,18 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary zip file
 
 ## Credits
 
-Online development: Pamplemom & Pathie
-Game development: Pathie
-UI development: Pamplemom
+- Online development: Pamplemom & Pathie
+- Game development: Pathie
+- UI development: Pamplemom
 
-Music and SFX: Pathie
-Game Art: Frost
-UI Art: Pamplemom
+- Music and SFX: Pathie
+- Game Art: Frost
+- UI Art: Pamplemom
 
-Special thanks:
+#### Special thanks:
 
 
-## Uninstall :(
+# Uninstall :(
 
 ## Windows
 
