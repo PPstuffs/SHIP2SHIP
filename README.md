@@ -17,7 +17,7 @@ SHIP2SHIP features co-op with up to 7 players (but we could make it much higher 
 
 ### Windows
 
-Download and execute the installer, then follow its steps:
+Download and run the installer, then follow the instructions:
 ```txt
 <github-link-to-installer>
 ```
@@ -26,15 +26,15 @@ Download and execute the installer, then follow its steps:
 
 Execute this set of commands:
 ```bash
-sudo apt update && sudo apt install unzip wget libcsfml-dev # install dependencies
-wget https://github.com/PPstuffs/SHIP2SHIP/archive/refs/heads/main.zip -O repo.zip -O ship2ship.zip # Download the game
-unzip ship2ship.zip # unzip it
-sudo mkdir -p /opt/SHIP2SHIP # Create the folder for the game
-sudo cp -r SHIP2SHIP-main/linux/. /opt/SHIP2SHIP/ # Copy the game inside the folder
-sudo cp -r SHIP2SHIP-main/assets /opt/SHIP2SHIP/ # Copy assets inside the folder
-sudo chmod +x /opt/SHIP2SHIP/SHIP2SHIP # Allow the game to be executed
-sudo cp /opt/SHIP2SHIP/SHIP2SHIP.desktop /usr/share/applications/ # Add the game to your desktop
-rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary zip file
+sudo apt update && sudo apt install unzip wget libcsfml-dev # Install dependencies
+wget https://github.com/PPstuffs/SHIP2SHIP/archive/refs/heads/main.zip -O ship2ship.zip # Download the game
+unzip ship2ship.zip # Extract the archive
+sudo mkdir -p /opt/SHIP2SHIP # Create the game's installation directory
+sudo cp -r SHIP2SHIP-main/linux/. /opt/SHIP2SHIP/ # Copy the game files into the installation directory
+sudo cp -r SHIP2SHIP-main/assets /opt/SHIP2SHIP/ # Copy the game assets into the installation directory
+sudo chmod +x /opt/SHIP2SHIP/SHIP2SHIP # Make the game executable
+sudo cp /opt/SHIP2SHIP/SHIP2SHIP.desktop /usr/share/applications/ # Add the game to your application menu
+rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 ```
 
 ## Credits
@@ -56,11 +56,11 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary zip file
 
 ### Windows
 
-Search our game inside the start menu, you should have an option to uninstall. Press it and follow the steps.
+Find our game in the Start Menu. You should see an option to uninstall it. Click it and follow the instructions.
 
 ### Linux
 
-Simply execute this set of functions
+Simply run the following commands:
 ```bash
 sudo rm -rf /opt/SHIP2SHIP # Remove the game files
 sudo rm -f /usr/share/applications/SHIP2SHIP.desktop # Remove destop icon
