@@ -15,14 +15,14 @@ SHIP2SHIP features co-op with up to 7 players (but we could make it much higher 
 
 ## Installation
 
-## Windows
+### Windows
 
 Download and execute the installer, then follow its steps:
 ```txt
 <github-link-to-installer>
 ```
 
-## Linux
+### Linux
 
 Execute this set of commands:
 ```bash
@@ -39,6 +39,8 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary zip file
 
 ## Credits
 
+### Development
+
 - Online development: Pamplemom & Pathie
 - Game development: Pathie
 - UI development: Pamplemom
@@ -47,16 +49,16 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary zip file
 - Game Art: Frost
 - UI Art: Pamplemom
 
-#### Special thanks:
+### Special thanks:
 
 
 # Uninstall :(
 
-## Windows
+### Windows
 
 Search our game inside the start menu, you should have an option to uninstall. Press it and follow the steps.
 
-## Linux
+### Linux
 
 Simply execute this set of functions
 ```bash
