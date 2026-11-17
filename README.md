@@ -17,10 +17,7 @@ SHIP2SHIP features co-op with up to 7 players (but we could make it much higher 
 
 ### Windows
 
-Download and run the installer, then follow the instructions:
-```txt
-<github-link-to-installer>
-```
+Download and run the installer [here](https://raw.githubusercontent.com/PPstuffs/SHIP2SHIP/refs/heads/main/windows/SHIP2SHIP%20Setup.exe), then follow the instructions
 
 ### Linux
 
