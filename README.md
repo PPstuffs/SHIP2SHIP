@@ -55,7 +55,9 @@ rm -rf ship2ship.zip SHIP2SHIP-main # Remove temporary files
 - Darius
 - Tril
 - Sherryade
-- Pixabay
+
+- SFX: Pixabay
+- Dependencies: CSFML library
 
 
 # Uninstall :(
